@@ -14,10 +14,13 @@
     <div class="container mt-5">
         <h1>Contact Form</h1>
         <form class="row g-3" action="https://formsubmit.co/9cb06bbf6af3f48e3ef31c36033422d8"method="POST">
-            <!-- adding Honeypot to prevent spamers-->
+            
+            <!-- adding Honeypot to prevent spammers-->
             <input type="text" name="_honey" style="display: none;">
             <!-- Disable captcha -->
             <input type="hidden" name="_captcha" value="false">
+            <!-- Link to success page -->
+            <input type="hidden" name="_next" value="https://rendani007.github.io/ContactForm/success.html">
 
             <div class="col-md-6">
                 <label for="firstname" class="form-label">First Name</label>
@@ -25,7 +28,7 @@
             </div>
             <div class="col-md-6">
                 <label for="lastname" class="form-label">Last Name</label>
-                <input type="text" class="form-control" name="Last Name" id="lasttname" required>
+                <input type="text" class="form-control" name="Last&nbsp;Name" id="lasttname" required>
             </div>
             <div class="col-md-8">
                 <label for="emailInfo" class="form-label">E-mail</label>
@@ -38,7 +41,7 @@
 
             <div class="col-md-12">
                 <label for="comments" class="form-label">Comments, questions?</label>
-                <textarea class="form-control" name="comments, questions" id="comments" rows="3" required></textarea>
+                <textarea class="form-control" name="comments,&nbsp;questions" id="comments" rows="3" required></textarea>
                 <!-- do not drop the textarea end tag cause it will include white space -->
             </div>
             <div class="col-md-12">
