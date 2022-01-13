@@ -1,0 +1,5 @@
+- Getting the form to send an email
+- Honeypot
+- Captcha removed
+- clean up email
+- add success page
